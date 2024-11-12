@@ -1,0 +1,32 @@
+{
+  "name": "dystcz/dystore-packeta-module",
+  "type": "laravel-module",
+  "description": "Dystore Packeta",
+  "authors": [
+    {
+      "name": "Dystopia Developers",
+      "email": "dev@dy.st"
+    }
+  ],
+  "require": {
+    "spatie/laravel-feed": "^4.3"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [],
+      "aliases": {}
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\DystoreHeureka\\": "src/",
+      "Modules\\DystoreHeureka\\Database\\Factories\\": "database/factories/",
+      "Modules\\DystoreHeureka\\Database\\Seeders\\": "database/seeders/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Modules\\DystoreHeureka\\Tests\\": "tests/"
+    }
+  }
+}

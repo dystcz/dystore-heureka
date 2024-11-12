@@ -1,0 +1,11 @@
+{
+  "name": "DystoreHeureka",
+  "alias": "dystore-heureka",
+  "description": "",
+  "keywords": [],
+  "priority": 0,
+  "providers": [
+    "Modules\\DystoreHeureka\\Providers\\DystoreHeurekaServiceProvider"
+  ],
+  "files": []
+}
