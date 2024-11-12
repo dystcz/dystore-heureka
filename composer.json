@@ -1,7 +1,7 @@
 {
-  "name": "dystcz/dystore-packeta-module",
+  "name": "dystcz/dystore-heureka-module",
   "type": "laravel-module",
-  "description": "Dystore Packeta",
+  "description": "Dystore Heureka",
   "authors": [
     {
       "name": "Dystopia Developers",
